@@ -10,6 +10,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
           <h1>{process.env.NODE_ENV}</h1>
           <h1>{process.env.REACT_APP_SERVICE_COM}</h1>
+          <h1>{process.env.SERVICE_COM}</h1>
         </p>
         <a
           className="App-link"
